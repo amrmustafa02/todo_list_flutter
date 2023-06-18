@@ -1,0 +1,25 @@
+{
+  "list": "Tasks",
+  "settings": "Settings",
+  "resetPassword": "Rest Password",
+  "mode": "Mode",
+  "lan": "language",
+  "logOut": "Log out",
+  "light": "Light",
+  "dark": "dark",
+  "system": "System",
+  "title": "Title",
+  "desc": "Description",
+  "add": "Add",
+  "save": "Save",
+  "ok": "Ok",
+  "cancel": "Cancel",
+  "edit": "Edit",
+  "handleTitle": "Please enter title",
+  "handleDesc": "Please enter Description",
+  "logoutMessage": "Do you want to log out ?",
+  "resetPasswordMessage": "We will send you email to reset password ",
+  "deleteMessage": "Do you want delete this task ?",
+  "load": "loading...."
+
+}
