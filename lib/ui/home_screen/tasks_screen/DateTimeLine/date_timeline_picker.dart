@@ -35,7 +35,7 @@ class _DateTimeLineScreenState extends State<DateTimeLineScreen> {
             bottomRight: Radius.circular(10), bottomLeft: Radius.circular(10)),
       ),
       child: TableCalendar(
-        locale: provider.local == Locale("en") ? "en" : "ar",
+        locale: provider.local == const Locale("en") ? "en" : "ar",
         weekendDays: const [],
         headerStyle: const HeaderStyle(
             rightChevronIcon: Icon(
@@ -51,7 +51,7 @@ class _DateTimeLineScreenState extends State<DateTimeLineScreen> {
             titleTextStyle: TextStyle(color: Colors.white, fontSize: 20)),
         daysOfWeekStyle: const DaysOfWeekStyle(
             weekendStyle: TextStyle(color: Colors.white),
-            weekdayStyle: TextStyle(color: Colors.white)),
+            weekdayStyle: TextStyle(color: Colors.white,fontSize: 14)),
         calendarStyle: const CalendarStyle(
           outsideTextStyle: TextStyle(color: Colors.white),
           defaultTextStyle: TextStyle(color: Colors.white),
