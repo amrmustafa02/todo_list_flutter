@@ -29,24 +29,18 @@ class _SplashScreenState extends State<SplashScreen> {
           bool? check = await UserDataUtils.getAutoLoginValue();
           if (check != null && check != false) {
             await UserDataUtils.loadUserName();
-             provider.setLocal();
-             provider.setMode();
-            try {
-              Navigator.pushReplacementNamed(context, HomeScreen.routeName);
-            } catch (_) {}
+            await provider.setLocal();
+            await provider.setMode();
+
+            Navigator.pushReplacementNamed(context, HomeScreen.routeName);
+
             return;
           }
         }
-        else{
-          try {
-            print("enterrrrrrrrrrrrrrrrrrrrrrrrrrrr");
-            // await provider.updateLocal('en');
-            // await provider.changeMode(1);
-             Navigator.pushReplacementNamed(context, LogInScreen.routeName);
-          } catch (_) {}
-        }
 
-
+        await provider.updateLocal('en');
+        await provider.changeMode(1);
+        Navigator.pushReplacementNamed(context, LogInScreen.routeName);
       },
     );
 
