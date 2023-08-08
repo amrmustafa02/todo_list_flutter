@@ -15,7 +15,7 @@ A Flutter app to store your
 
 
 ## Demo
-https://www.linkedin.com/posts/amr-mustafa-58a80320b_flutter-github-mobileapp-activity-7091641142085062656-sA_m?utm_source=share&utm_medium=member_desktop
+https://www.linkedin.com/posts/amr-mustafa-58a80320b_flutter-github-mobileapp-activity-7076370730929594368-WoAg?utm_source=share&utm_medium=member_desktop
 
 ## Features
 - Can sign in with google account ,facebook account and email & password
