@@ -16,22 +16,28 @@ A Flutter app to store your
 
 ## Demo
 https://www.linkedin.com/posts/amr-mustafa-58a80320b_flutter-github-mobileapp-activity-7076370730929594368-WoAg?utm_source=share&utm_medium=member_desktop
-
 ## Features
-- Can sign in with google account ,facebook account and email & password
-- Show trending movies
-- Show movie details
-- Show videos for movies 
-- Show reviews for movies
-- Can add moview to your favourite list
-- Show actor details
-- Can search on any movie
+- Making Authentication by using the Firebase Authentication.
+
+- Verify user email by using Firebase.
+
+- Ability to add new task with chosen time.
+
+- Ability to edit, delete and change time for the task.
+
+- Ability to reset password using Firebase.
   
 ## About project
-- Using firebase as database
-- Applying MVVM archticture pattern
-- Using bloc as statemanagment
-- Using http package to call API 
+- Supported Languages:
+   - Arabic.
+   - English.
+
+- Supported dark theme.
+
+- Using Firestore database as the backend for my application.
+
+- Using provider as the State Management.
+ 
 
 
 ## 🚀 About Me
