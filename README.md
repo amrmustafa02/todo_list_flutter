@@ -2,7 +2,7 @@
 # Todo App ♥️♥️
 A Flutter app to store your 
 
-<img src="https://github.com/amrmustafa02/movies_app/assets/78182930/ccd767d8-28e9-4071-a4ab-92fdd0bbdc8b" width="300">
+<img src="https://github.com/amrmustafa02/todo_list_flutter/blob/master/assets/images/logo.png" width="300">
 
 
 
